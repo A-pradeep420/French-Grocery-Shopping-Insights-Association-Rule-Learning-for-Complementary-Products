@@ -7,3 +7,53 @@ Understanding consumer behavior is crucial for optimizing sales and marketing st
 📦 Introduction 🛒
 
 This repository contains code and documentation for a fascinating project involving transaction data from a French grocery store. The dataset encompasses the purchases made by customers over the course of a week, revealing the various items bought together. Our objective is to employ association rule learning techniques to unearth valuable insights. By identifying the top 5 items frequently purchased together, we aim to assist the French store in crafting packages or strategically placing these items together to enhance customer experience and boost sales. Let's dive into the world of grocery shopping analytics and uncover meaningful patterns! 💼🍞🧀
+
+# Skills/Concepts Developed
+Exploratory Data Analysis (EDA)
+Data Analysis
+Data Transformation using Transaction Encoder
+Apriori Algorithm Application
+Association Rules Analysis
+
+# Problem Statement
+We have to learn the Association rules to help the French store determine the top 5 items that are bought together to help them make packages or place these items together.
+
+# Modeling
+1.Exploratory Data Analysis (EDA):
+Conduct an initial exploration of the dataset to understand its structure, features, and distributions. 🕵️‍♂️🔍
+Perform summary statistics, visualize data distributions, and identify any anomalies or patterns. 📊📈
+
+2.Data Analysis:
+Dive deeper into the dataset to extract meaningful insights and trends. 📉🔍
+Analyze customer purchasing behavior, popular items, and transaction patterns. 🛒👥
+
+3.Data Transformation using Transaction Encoder:
+Prepare the transactional data in a suitable format for association rule learning. 🔄📝
+Convert the raw dataset into a transactional format where each row represents a unique transaction. 🛍️➡️📋
+
+4.Apriori Algorithm Application:
+Apply the Apriori algorithm to identify frequent itemsets in the transactional data. ⚙️🔎
+Determine the support threshold and mine frequent itemsets based on this threshold. 📊🛒
+
+5.Association Rules Analysis:
+Generate association rules based on the frequent itemsets discovered by the Apriori algorithm. 📜🔍
+Evaluate and interpret the association rules using metrics such as support, confidence, and lift. 📊🔢
+Select and prioritize the top association rules that are most relevant and actionable for the French grocery store. ⭐📋
+These tasks collectively form a comprehensive analysis pipeline aimed at uncovering valuable insights from transactional data and providing actionable recommendations for the grocery store. 🛒🔍📊
+# Visualization
+Visualize the Association Rule Learning for Complementary Products gain insights into its Association Rule process.⭐📋
+
+# conclusion
+
+
+Top 5 Association Rules:
+
+/usr/local/lib/python3.10/dist-packages/ipykernel/ipkernel.py:283: DeprecationWarning: `should_run_async` will not call `transform_cell` automatically in the future. Please pass the result to `transformed_cell` argument and any exception that happen during thetransform in `preprocessing_exc_tuple` in IPython 7.17 and above.
+  and should_run_async(code)
+
+	antecedents 	consequents 	antecedent support 	consequent support 	support 	confidence 	lift 	leverage 	conviction 	zhangs_metric
+770 	(ground, tea) 	(green, beef) 	0.018264 	0.017731 	0.015731 	0.861314 	48.576807 	0.015407 	7.082677 	0.997635
+771 	(beef, tea) 	(ground, green) 	0.018264 	0.017731 	0.015731 	0.861314 	48.576807 	0.015407 	7.082677 	0.997635
+768 	(ground, green) 	(beef, tea) 	0.017731 	0.018264 	0.015731 	0.887218 	48.576807 	0.015407 	8.704724 	0.997093
+769 	(green, beef) 	(ground, tea) 	0.017731 	0.018264 	0.015731 	0.887218 	48.576807 	0.015407 	8.704724 	0.997093
+975 	(fries, whole) 	(french, wheat) 	0.017864 	0.018131 	0.015731 	0.880597 	48.568810 	0.015407 	8.223154 	0.997225

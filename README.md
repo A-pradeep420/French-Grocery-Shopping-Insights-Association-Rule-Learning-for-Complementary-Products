@@ -2,7 +2,7 @@
 Understanding consumer behavior is crucial for optimizing sales and marketing strategies in the grocery retail industry. Association rule learning is a powerful technique that enables us to uncover interesting patterns and relationships between products frequently purchased together. In this analysis, we delve into French grocery shopping data to identify complementary products that are commonly bought in tandem. By leveraging association rule learning algorithms, we aim to provide valuable insights that can assist retailers in enhancing their product placement, promotions, and assortment strategies. Let's explore the fascinating world of French grocery shopping and discover the hidden connections between everyday items! 🥖🧀🍷
 
 
-![]([https://github.com/A-pradeep420/Recommender-Smart-Shopping-Assistant-Enhancing-Product-Discovery-for-Personalized-Purchasing/blob/main/images.png](https://github.com/A-pradeep420/French-Grocery-Shopping-Insights-Association-Rule-Learning-for-Complementary-Products/blob/main/Apriori-Association%20Rule%20Learning.jpg))
+![]((https://github.com/A-pradeep420/French-Grocery-Shopping-Insights-Association-Rule-Learning-for-Complementary-Products/blob/main/Apriori-Association%20Rule%20Learning.jpg))
 
 📦 Introduction 🛒
 
